@@ -9,6 +9,7 @@ A TikTok clone
 * Next.js
 * Sanity
 * Zustand
+* Google OAuth
 * Tailwind CSS
 * UUID
 * Axios
