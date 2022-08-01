@@ -7,9 +7,10 @@ import { BiSearch } from 'react-icons/bi'
 import { IoMdAdd } from 'react-icons/io'
 import Logo from '../utils/toktik-logo.png'
 import { createOrGetUser } from "../utils"
+import useAuthStore from "../store/authStore"
 
 const Navbar = () => {
-  const user = false
+  const { userProfile, addUser } = useAuthStore()
 
   return (
     <div className="w-full flex justify-between items-center border-b-2 border-gray-200 py-2 px-4">
@@ -27,11 +28,11 @@ const Navbar = () => {
       <div>SEARCH</div>
 
       <div>
-        {user ? (
-          <div>Logged in</div>
+        {userProfile ? (
+          <div>{userProfile.userName}</div>
         ) : (
           <GoogleLogin 
-            onSuccess={(response) => createOrGetUser(response)}
+            onSuccess={(response) => createOrGetUser(response, addUser)}
             onError={() => console.log('Error')}
           />
         )}
