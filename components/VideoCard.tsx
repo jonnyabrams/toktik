@@ -19,10 +19,10 @@ const VideoCard: NextPage<IProps> = ({ post }) => {
 
   const onVideoPress = () => {
     if (playing) {
-      videoRef.current?.pause()
+      videoRef?.current?.pause()
       setPlaying(false)
     } else {
-      videoRef.current?.play()
+      videoRef?.current?.play()
       setPlaying(true)
     }
   }
