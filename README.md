@@ -10,6 +10,12 @@ It has a responsive design and is deployed to Vercel (see link above - feel free
 
 ---
 
+## Video Demo
+
+https://user-images.githubusercontent.com/97295867/182563590-31146123-1447-4163-9401-d0c671d0b6ba.mp4
+
+---
+
 ## Technologies Used
 
 * React
