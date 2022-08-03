@@ -2,7 +2,9 @@
 
 A TikTok clone
 
-Users can sign in with Google OAuth, upload videos, like/unlike videos, comment on them, see users' profiles and toggle between that user's videos and the videos they've liked
+Users can sign in with Google OAuth, upload videos, like/unlike videos, comment on them, browse different categories, see users' profiles and toggle between that user's videos and the videos they've liked
+
+Responsive design using Tailwind CSS
 
 ## Technologies Used
 
