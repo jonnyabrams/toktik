@@ -1,10 +1,12 @@
 # TokTik
 
-A TikTok clone
+[https://toktik-roan.vercel.app/](https://toktik-roan.vercel.app/)
 
-Users can sign in with Google OAuth, upload videos, like/unlike videos, comment on them, browse different categories, see users' profiles and toggle between that user's videos and the videos they've liked
+A TikTok clone using TypeScript, Next.js, React, Sanity and Tailwind CSS. Users can sign in with Google OAuth, upload videos, like/unlike videos, comment on them, browse different categories, see users' profiles and toggle between a user's own videos and videos they've liked.
 
-Responsive design using Tailwind CSS
+It has a responsive design and is deployed to Vercel (see link above - feel free to post and comment!).
+
+---
 
 ## Technologies Used
 
@@ -17,3 +19,7 @@ Responsive design using Tailwind CSS
 * Tailwind CSS
 * UUID
 * Axios
+
+---
+
+[Jonny Abrams](https://github.com/jonnyabrams)
