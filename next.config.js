@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
-    ignoreBuildErrors: true
+    ignoreBuildErrors: true,
   },
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['static.wikia.nocookie.net', 'lh3.googleusercontent.com']
-  }
-}
+    domains: ["static.wikia.nocookie.net", "lh3.googleusercontent.com"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
